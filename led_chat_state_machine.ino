@@ -4,8 +4,9 @@
 
 #include "led.h"
 
-// the input variable
-char user_data[512];
+// #defines are VERY useful tools for programmers when denoting numerical consts.
+//   Think of them as keywords.
+#define BAUD 9600
 
 // setitng up the classes
 led led1 = led(1, 50);
@@ -15,8 +16,8 @@ led led2 = led(2, 25);
 void setup() {
 
    // setting up the interface in this file
-   Serial.begin(9600);
-   Serial1.begin(9600);
+   Serial.begin(BAUD);
+   Serial1.begin(BAUD);
 
    // enabling the WDT
    wdt_enable(WDTO_1S);
