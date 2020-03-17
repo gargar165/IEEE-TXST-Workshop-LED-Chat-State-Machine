@@ -1,4 +1,6 @@
 # ieee_workshop_state_machine
+HUGE thanks to @Robertsbarr from Clemson University on this one. I modified the crud out of it, but the led class originated from code he made.
+
 Needs elapsedMillis library.
 https://github.com/pfeerick/elapsedMillis/archive/master.zip
 
