@@ -12,5 +12,5 @@ https://github.com/pfeerick/elapsedMillis/archive/master.zip
   
   Considering that the Mega's UART buffers are 63 bytes, making USER_BUFFER_SIZE 512 bytes is probably very unnecessary. However, the Mega's UART buffers can be changed be undefining both SERIAL_TX_BUFFER_SIZE and SERIAL_RX_BUFFER_SIZE, then redefining them to any size, as long as it is below 256 to prevent irratic behavior.
   
-  If you're curious as to how this works, go to C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino
+  If you're curious as to how this works, go to C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino.
   You can sift through the HardwareSerial (or any part of Arduino) files here, but DON'T CHANGE ANYTHING UNLESS YOU KNOW WHAT YOU'RE DOING! I don't even change anything here to allow all my projects to behave as expected.
