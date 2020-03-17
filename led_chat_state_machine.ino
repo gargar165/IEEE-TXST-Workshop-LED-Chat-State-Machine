@@ -1,5 +1,3 @@
-#include <HardwareSerial.h>
-#include <elapsedMillis.h>
 #include <avr/wdt.h>
 
 #include "led.h"
