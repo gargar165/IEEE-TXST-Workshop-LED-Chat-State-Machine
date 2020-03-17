@@ -6,7 +6,7 @@
 //   Think of them as keywords.
 #define BAUD 9600
 
-// setitng up the classes
+// setting up the classes
 led led1 = led(1, 50);
 led led2 = led(2, 25); 
 
