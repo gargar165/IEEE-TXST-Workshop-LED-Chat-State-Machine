@@ -1,4 +1,4 @@
-# ieee_workshop_state_machine
+# IEEE-TXST Workshop: LED Chat State Machine
 HUGE thanks to @Robertsbarr from Clemson University on this one. I modified the crud out of it, but the led class originated from code he made.
 
 Needs elapsedMillis library.
